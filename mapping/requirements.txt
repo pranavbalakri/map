@@ -1,0 +1,27 @@
+numpy>=1.20.0
+opencv-python>=4.5.0
+Pillow>=8.0.0
+h5py>=3.0.0
+torch>=1.9.0
+torchvision>=0.10.0
+kornia>=0.6.0
+scipy>=1.7.0
+
+# Feature extraction and matching (Glue Factory)
+# Install with: pip install glue-factory[alibi]
+# For now, add as optional:
+# glue-factory[alibi]>=0.1.0
+
+# LoFTR (detector-free matching)
+# Install with: pip install git+https://github.com/zju3dv/LoFTR.git
+
+# COLMAP (SfM)
+# Install from: https://colmap.github.io/install.html
+# (binary/system-level installation)
+
+# For COLMAP Python bindings (optional):
+# pycolmap>=0.1.0
+
+# Additional utilities
+tqdm>=4.60.0
+pyyaml>=5.4.0
